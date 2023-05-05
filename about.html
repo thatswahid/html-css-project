@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <section class="sub_header">
+        <nav>
+            <a href="index.html"><img src="./img/logo.png" alt=""></a>
+            <div class="nav_link" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./course.html">Course</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+
+        <h1>About Us</h1>
+    </section>
+
+
+    <!-- about us content start -->
+
+    <section class="about_us">
+        <div class="row">
+            <div class="about_col">
+                <h1>We are the world largest university</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi pariatur vitae dolor natus modi
+                    eaque corporis ipsa id atque autem fugit at voluptatum cupiditate quis, quaerat voluptates
+                    voluptate! Id, animi?
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi pariatur vitae dolor natus modi
+                eaque corporis ipsa id atque autem fugit at voluptatum cupiditate quis, quaerat voluptates
+                voluptate! Id, animi?</p>
+                    <a href="" class="hero_btn red_btn">Explore Now</a>
+            </div>
+            <div class="about_col">
+                <img src="./img/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- about us content end -->
+
+
+    <!-- ========================= Footer section start ========================= -->
+    <div class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus doloribus, voluptate earum impedit id
+            asperiores adipisci dolorem alias modi deleniti facilis iusto omnis optio. <br> Modi excepturi quo illo
+            magnam
+            iste!</p>
+
+        <div class="icons">
+            <i class="fa fa-car"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkdin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> easy tutorials</p>
+    </div>
+    <!-- ========================= Footer section end ========================= -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>
